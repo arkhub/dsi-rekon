@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direktorat Statistik Industri - Rekonsiliasi Triwulanan</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #ffffff;
+            --bg-glass: rgba(255, 255, 255, 0.15);
+            --bg-glass-hover: rgba(255, 255, 255, 0.25);
+            --border-glass: rgba(255, 255, 255, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            /* Beautiful data/tech-themed background image with a dark overlay for text readability */
+            /* background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2070'); */
+            background-image: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.55)), url('images/background.png');
+			background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: var(--primary-color);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 580px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary-color);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            /* Placeholder logo/building image */
+            /* background: url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=400&q=80') center/cover; */
+			background: url('images/bps-logo-large.png') center/cover;
+        }
+
+        .header-text {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .header-text h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .header-text p {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #cbd5e1;
+            margin-bottom: 4px;
+        }
+        
+        .date-badge {
+            display: inline-block;
+            background: #3b82f6;
+            color: white;
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-top: 8px;
+        }
+
+        .links-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 18px 24px;
+            background: var(--bg-glass);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--border-glass);
+            border-radius: 16px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 1.05rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-card:hover {
+            background: var(--bg-glass-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            margin-top: auto;
+            padding-top: 40px;
+            font-size: 0.85rem;
+            color: #94a3b8;
+            text-align: center;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 480px) {
+            .profile-img {
+                width: 100px;
+                height: 100px;
+            }
+            .header-text h1 {
+                font-size: 1.3rem;
+            }
+            .link-card {
+                font-size: 1rem;
+                padding: 16px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="profile-img"></div>
+
+        <div class="header-text">
+            <h1>Direktorat Statistik Industri</h1>
+            <p>Pembahasan Angka Sementara Triwulan I 2026</p>
+            <div class="date-badge">Jumat, 24 April 2026</div>
+        </div>
+
+        <div class="links-container">
+            <a href="https://bps-go-id.zoom.us/j/96405596717?pwd=tsA1O3m7L9AQ12PdIW1TjmfkaWddK7.1" class="link-card" target="_blank" rel="noopener noreferrer">
+                🔴 Join via Zoom
+            </a>
+						
+            <a href="https://" class="link-card" target="_blank" rel="noopener noreferrer">
+                📧 Undangan Rekon
+            </a>
+			
+            <a href="https://drive.google.com/file/d/1LX3_CP-hxvwepnG3SDsMJY1nYFRQ--v8/view?usp=sharing" class="link-card" target="_blank" rel="noopener noreferrer">
+                🎨 Virtual Background untuk Zoom
+            </a>			
+				
+            <a href="https://" class="link-card" target="_blank" rel="noopener noreferrer">
+                📖 Daftar Hadir Online
+            </a>
+
+            <a href="https://" class="link-card" target="_blank" rel="noopener noreferrer">
+                📊️ Sheet Fenomena IBS
+            </a>
+
+            <a href="https://" class="link-card" target="_blank" rel="noopener noreferrer">
+                📊 Sheet Fenomena IKR
+            </a>
+			
+            <a href="https://drive.google.com/drive/folders/12GGitx8GzQ4uB15ziaoA85YEx8OWe-Om?usp=sharing" class="link-card" target="_blank" rel="noopener noreferrer">
+                📚 Materi Presentasi Rekon
+            </a>
+			
+            <a href="https://docs.google.com/spreadsheets/d/1uJQyYxENRsa80id72bvBWjcOpFANZ37mPkIzfjciLes/edit?usp=sharing" class="link-card" target="_blank" rel="noopener noreferrer">
+                🤚 Tanya Jawab (QnA)
+            </a>			
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Badan Pusat Statistik</p>
+    </div>
+
+</body>
+</html>
